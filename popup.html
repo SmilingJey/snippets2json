@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>YP Snippets JSON Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./popup.css">
+</head>
+<body>
+<div class="page">
+    <form action="/" class="text-form">
+        <textarea name="area" rows="10" class="text-form__input" placeholder="Вставьте markdown критериев"></textarea>
+        <div>
+            <button type="submit" class="text-form__submit">Generate JSON</button>
+            <button type="submit" class="text-form__submit">Save file</button>
+        </div>
+        
+    </form>
+    <div class="hidden-block" style="display: none;"></div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

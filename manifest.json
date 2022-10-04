@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "YP Snippets JSON Generator",
+  "description": "YP Snippets JSON Generator",
+  "version": "1.0.0",
+  "icons": {
+    "48": "logo_48.png"
+  },
+  "browser_action": {
+    "default_icon": "logo_48.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
